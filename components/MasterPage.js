@@ -10,7 +10,7 @@ const MasterPage = (props) => (
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css" />
             <Navegacion />
             <div className="container mt-4">
-            {props.children}
+                {props.children}
             </div>
         </Head>
     </div>
