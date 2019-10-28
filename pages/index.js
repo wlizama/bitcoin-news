@@ -28,6 +28,7 @@ Index.getInitialProps = async () =>  {
 
     const precio = await fetch('https://api.coinmarketcap.com/v2/ticker/1/')
     const noticias = await fetch(`https://newsapi.org/v2/everything?q=bitcoin&sortBy=publishedAt&language=es&apiKey=760a059fd8594f74ba8f9fc83259d9f4`)
+    const eventos = await fetch(`https://newsapi.org/v2/everything?q=bitcoin&sortBy=publishedAt&language=es&apiKey=760a059fd8594f74ba8f9fc83259d9f4`)
 
     const resPrecio = await precio.json()
     const resNoticias = await noticias.json()
