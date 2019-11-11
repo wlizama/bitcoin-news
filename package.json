@@ -5,7 +5,7 @@
   "main": "Index.js",
   "dependencies": {
     "next": "^9.1.1",
-    "react": "^16.10.2",
+    "react": "^16.11.0",
     "react-dom": "^16.10.2"
   },
   "devDependencies": {
